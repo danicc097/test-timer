@@ -1,0 +1,6 @@
+[Unit]
+Description=Test timer service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash %h/test-timer/test-timer.sh
