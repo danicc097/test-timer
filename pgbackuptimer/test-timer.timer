@@ -1,0 +1,8 @@
+[Unit]
+Description=Runs pgdump every saturday
+
+[Timer]
+OnCalendar=Saturday *-*-* 10:00:00
+
+[Install]
+WantedBy=timers.target

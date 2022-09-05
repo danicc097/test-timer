@@ -3,5 +3,5 @@ Description=Test timer service
 
 [Service]
 Type=oneshot
-# TODO edit to final location
+# TODO update
 ExecStart=/bin/bash %h/test-timer/test-timer.sh
